@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<nav class="navbar">
+
+			<div class="mainav">
+				<img height="70" src="img/download.png" alt="Mpair logo">
+				<div class="nav-menu">
+					<ul>
+						<li style = "position:relative; right:220px"><a href="#">Services</a></li>
+						<li style = "position:relative; right:220px"><a href="#">Products</a></li>
+						<li style = "position:relative; right:220px"><a href="#">Works</a></li>
+						<li style = "position:relative; right:220px"><a href="#">Clients</a></li>
+						<li style = "position:relative; right:220px"><a href="#">About Us</a></li>
+						<li style = "position:relative; right:220px"><a href="#">Careers</a></li>
+						<li style = "position:relative; right:220px"><a href="#">Digital</a></li>					
+						<a href=""><button> &nbsp;&nbsp;&nbsp; Contact &nbsp;&nbsp;&nbsp;</button></a>
+					</ul>
+				</div>	
+			</div>
+		</nav>	
+
+	<section class="header">
+		<div class="container heading-element ">
+			<h1>Ideate The Future</h1>
+			<p>Exploring creative ideas to ensure the green technologies for a better<br> future world. Utilizing the latest
+				technology led by a promosing team will<br> provide you the best and innovative solutions.
+			</p>
+		</div>
+
+		<div class="enterprise">
+			<div class="container-card">
+				<img src="img/Someekoron_Logo.png" alt="Someekoron_Logo" height="60px">
+			</div>
+			<div class="Newcard">
+				<p class="">Experience rapid business growth through our <br> &nbsp;&nbsp;&nbsp;&nbsp; integrated approach of Project Accounts Solution.</p>
+				<br>
+				<a href="#" type="button">&nbsp; Learn More &nbsp;</a>
+			</div>
+
+			<div class="enterprise-logo">
+				<img src="/img/accordeskside.png" alt="">
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container-fluid">
+
+			<h1>Pair Your Business With mPair's Expertise</h1>
+			<p>We provide our next level services, that your business can meet expected goals.</p>
+
+		</div>
+	</section>	
+
+	<div class="container first-element">
+		<div class="row">
+			<div class="second-element">
+				<div class="third-element">
+					<img src="img/software.d82a88943f2f467bb00a.png" alt="tech photo">
+					<p class="featureHeader">Cloud & Software</p>
+					<p class="featureText">Delivering on demand secured & <br>Software solution</p>
+					<br>
+					<a class="featureTexte" href="#">Explore more</a>
+				</div>
+			</div>
+
+
+			<div class="number">
+				<div class="numberone">
+					<img src="img/prototyping.png" alt="mpair">
+					<p class="featureHeader">Design & Prototyping</p>
+					<p class="featureText">Advancing the human experience through <br> creative and premium designs..</p>
+					<br>
+					<a class="featureTexte" href="#">Explore more</a>
+				</div>
+			</div>
+
+
+			<div class="robot">
+				<div class="robotOne">
+					<img src="img/robotics.png" alt="mpair">
+					<p class="featureHeader">Robotics & Automation</p>
+					<p class="featureText">Approaching towards a smart life with <br> intelligence of technology.</p>
+					<br>
+					<a class="featureTexte" href="#">Explore more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="Automate">
+		<div class="aUtomatic">
+			<h1>Automate Your Business Process</h1>
+			<p>Explore mPair Products to meet the diverse requirements of desired industries, offering quality solutions for every sector.</p>
+			
+			<ul class="pillbar">
+				<li class="pill" onclick="showContent('someekoron')">Someekoron</li>
+				<li class="pill" onclick="showContent('schoolSys')">SchoolSys</li>
+				<li class="pill" onclick="showContent('docAppoint')">DocAppoint</li>
+				<li class="pill" onclick="showContent('flyDocx')">FlyDocx</li>
+			</ul>
+	
+			<div id="content">
+					
+			</div>
+	
+			<script>
+					function showContent(page) {
+						var contentDiv = document.getElementById('content');
+						switch (page) {
+							case 'someekoron': 
+								contentDiv.innerHTML = '<h2>Someekoron</h2> <img src="https://mpairtech.com/static/media/accor.91eb20b7bd17d9764920.png" alt="someekoron Image"> <p>Someekoron is an Enterprise Solution platform designed to<br> integrate core business processes across an organization<br>improved collaboration across departments.</p><ul> <li>Project Management</li> <li>Event Management</li> <li>Task Management</li> <li>Store & Procurement</li> <li>HR Management</li> </ul> <a href="#"><u>Learn More</u></a>';
+								break;
+							case 'schoolSys':
+								contentDiv.innerHTML = '<h2>SchoolSys</h2> <img src="https://mpairtech.com/static/media/schoolsys.2e66376f34ca4ad7d5f7.png" alt="SchoolSys Image"> <p>SchoolSys is a comprehensive software solution that<br> integrates various administrative, academic, and<br> communication processes within an educational institution.</p> <ul> <li>StudentInformation Management</li> <li>Grade and Exam Management</li> <li>Fees Management</li> <li>Library Management</li> <li>Staff and HR Management</li> </ul> <a href="#"><u>Learn More</u></a>';
+								break;
+							case 'docAppoint':
+								contentDiv.innerHTML = '<h2>DocAppoint</h2> <img src="https://mpairtech.com/static/media/Docappoint-01.2dddb027c9d537e6ed57.png" alt="DocAppoint Image"> <p>docAppoint is a platform that enables user to book<br> appointments online, notify them and helps doctors to<br> manage their schedules & reduce wait times..</p> <ul> <li>Doctor’s Appointment Management</li> <li>Patient Queue Management</li>  <li>Multiple User Admin Role</li> <li>Daily & Monthly Reports</li> <li>Real Time Notification</li> </ul> <a href="#"><u>Learn More</u></a>';
+								break;
+							case 'flyDocx':
+								contentDiv.innerHTML = '<h2>FlyDocx</h2> <img src="https://mpairtech.com/static/media/flydocx-01.aaad56f6008541ff1d3e.png" alt="FlyDocx Image"> <p>Flydocx is a Tour & Travel Agency Management System that<br> &nbsp; can manage all activities of a Travel Agency including<br> Customer, Vendor, and Accounts Management.</p> <ul> <li>Customer Data Management</li> <li>Vendor & Agent Automation</li> <li>Accounts Management</li> <li>Staff Management</li> <li>Daily & Monthly Reports</li> </ul> <a herf="#" ><u>Learn More</u></a>';
+								break;
+							default:
+								break;
+						}
+					}
+
+					showContent('someekoron');
+			</script>
+
+		</div>
+	</section>
+
+	<section id="marketing">
+		<img src="https://mpairtech.com/static/media/toufiq1.e8c330e458e21c5c8219.png" alt="Toufiq Image">
+		<h3>Why go with mPair?</h3>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; highly skilled and experienced teams specialize in individual services,<br> ensuring the timelydelivery of high-value solutions within budget.<br>Call our sales team at +8881748200588<p>
+
+		<a href="#">Read Article for Your Business</a>
+	</section>
+
+	<section id="Bsec">
+		<div class="ecommerce-section">
+			<div class="container-eco">
+				<h1>E-commerce Solutions</h1>
+				<p>Want to get started with your e-commerce business? We are at your service.</p>
+			</div>
+
+			<div class="Frow">
+				<img src="/img/cart.png" alt="Automation | Best IT Solution \ mPair Technologies">
+			</div>
+			<div class="P3P4">
+				<P class="Pname3">Single Vendor</P>
+				<p class="Pname4">Amplify your brand and sales value with<br> our single vendor solution.</p>
+			</div>
+
+			<div class="lrow">
+				<img src="img/multi.png" alt="Automation | Best IT Solution \ mPair Technologies">
+			</div>
+			<div class="P6P7">
+				<P class="Pname6">Multi Vendor</P>
+				<p class="Pname7">Deploy and manage your very own<br> marketplace on the web.</p>
+			</div>
+		</div>
+
+		<div class="second-RoW">
+			<div class="CroW">
+				<img src="img/cloud1.png" alt="Automation | Best IT Solution \ mPair Technologies">
+			</div>
+			
+			<div class="P8P9">
+				<br>
+				<P class="Pname8">Cloud POS</P>
+				<p class="Pname9">Assemble all your business and sales<br> operations in one place.</p>
+			</div>
+
+			<div class="TroW">
+				<img src="https://mpairtech.com/static/media/sub.301e1daa868cf736948b.png" alt="Automation | Best IT Solution \ mPair Technologies">
+			</div>
+			
+			<div class="P10P11">
+				<br>
+				<P class="Pname10">Subscription Model</P>
+				<p class="Pname11">Ensure consistent and recurring revenue<br> with subscription based business.</p>
+			</div>
+			<br>
+
+		</div>
+
+		<button class="">Get A Qoute</button>
+
+		
+	</section>
+
+
+	<section id="clientg">
+		<div class="container-fgg">
+			<div class="Ghhh">
+				<div class="MhF">
+					<h1>
+					<span>Since 2021</span>
+					<br>
+					More than <u>20 brands</u> have paired with<br> us.
+					</h1>
+				</div>
+				<div class="jkl">
+					<div class="container-fluid-klh">
+						<div class="NaT">
+							<img src="https://mpairtech.com/static/media/national.6e7c4a6afda3a35b89c4.png" alt="portimgL grayscale">
+						</div>
+
+						<div class="MaT">
+							<img src="https://mpairtech.com/static/media/ahis.c67482fe3eac346f9e17.png" alt="portimgXs grayscale">
+						</div>
+
+						<div class="KLT">
+							<img src="https://mpairtech.com/static/media/epic.9f071e888fd3d6a909ef.png" alt="portimg grayscale">
+						</div>
+
+						<div class="LiT">
+							<img src="https://mpairtech.com/static/media/parkv.ce499497389173fa5821.png" alt="portimgM grayscale">
+						</div>
+
+						<div class="FGJ">
+							<img src="portimgM grayscale" alt="portimgL grayscale">
+						</div>
+
+						<div class="DFd">
+							<img src="https://mpairtech.com/static/media/voltec.e1dc54c176ee7ef67e0f.png" alt="portimgS grayscale">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>	
+
+</body>
+
+</html>
