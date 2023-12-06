@@ -22,14 +22,24 @@ nav{
 .mainav img{
 	height: 50px;
 	width: 50px;
-	margin-right: 15%;
+	margin-right: 17%;
 
 }
 
 .nav-menu ul li{
 	display: inline-block;
 	margin: 15px 15px;
+	color: #fffcf0;
+	font-family: sans-serif;
+	position:relative;
+	right:220px
 }
+
+.nav-menu ul li:hover{
+	color: orangered;
+}
+
+
 
 .mainav{
 	display: flex;
@@ -48,10 +58,15 @@ nav{
 	font-size: 20px;
 	border-radius: 5px;
 	flex-direction: row;
-	padding: 4px 4px;
 	cursor: pointer;
-	
+	padding: 2px 30px 2px 30px;
 
+}
+
+.mainav ul a button:hover{
+	color: rgb(42, 42, 238);
+	background-color: white;
+	border: 1px solid blue;
 }
 
 .nav-menu{
@@ -62,16 +77,16 @@ nav{
 	
 	text-decoration: none;
 	color: black;
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: none;
-	font-size: 20px;
 	margin-right: 15px;
+	font-size: 17px; 
 	
 }
 
 .nav-menu ul li a:hover{
 	color: orangered;
-} 
+}
 
 
 .container h1{
@@ -84,7 +99,7 @@ nav{
 
 .container p{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 20px;
 	font-size: 30px;
 	color: white;
 }
@@ -92,9 +107,9 @@ nav{
 .enterprise{
 	display: flex;
 	box-sizing: border-box;
-	box-shadow: 10px;
+	box-shadow: 30px;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color:white;
 	border: 1px solid #ddd;
 	bottom: 0px;
 	left: 10%;
@@ -115,35 +130,49 @@ nav{
 }
 
 
-
 .enterprise p{
-	text-align: center;
+	text-align: left;
 	font-size: 15px;
 	margin-bottom: 5px;
 	margin-top: 35px;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+.enterprise img{
+	width: 200px;
+	height: 50px;
+}
+
+.Newcard p{
+	margin-top: 30px;
 	font-size: 20px;
 }
 
-.enterprise a{
-	cursor: pointer;
-	padding: 13px 13px;
-	margin-top: 100px;
-	margin-bottom: 0px;
-	margin-left: 25px;
-	font-size: 20px;
-	background-color: orangered;
+
+.Newcard button{
+	margin-left: 30px;
+	margin-top: 20px;
 	color: white;
-	text-decoration: none;
-	border-radius: 7px;
+	background-color: orangered;
+	cursor: pointer;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px 5px;
+	border: 1px solid white;
 
 }
 
+
+.Newcard button:hover{
+	color: orangered;
+	background-color: white;
+	border-color:orangered;
+}
 
 .enterprise-logo img{
 	height: 170px;
 	width: 300px;
-	text-align: center;
-	box-sizing: border-box;
+	margin-bottom: -5px;
 }
 
 .heading-element{
@@ -170,9 +199,9 @@ nav{
 .row{
 	display: flex;
 	border: 2px solid whitesmoke;
-	margin-left: 190px; 
-	margin-right: 190px;
-	width: 70%;
+	margin-left: 170px; 
+	margin-right: 170px;
+	width: 80%;
 	margin-bottom: 100px;
 
 }
@@ -180,14 +209,16 @@ nav{
 .second-element img{
 	width: 50px;
 	height: 50px;
+}
 
-
+.third-element p{
+	text-align: left;
 }
 
 .third-element{
 	padding: 10px;
 	margin-left: 20px;
-	padding: 15 px;
+	padding: 15px;
 }
 
 .featureHeader{
@@ -198,6 +229,7 @@ nav{
 .featureText{
 	color: black!important;
 	font-size: 16px!important;
+	margin-bottom: 10px;
 }
 
 
@@ -216,7 +248,10 @@ nav{
 	border-left: 2px solid whitesmoke;
 	padding: 15px;
 
+}
 
+.number p{
+	text-align: left;
 }
 
 .robot{
@@ -226,10 +261,26 @@ nav{
 
 }
 
+.robot p{
+	text-align: left;
+}
+
+
+
+.numberone img{
+	width: 50px;
+	height: 50px;	
+}
+
+.robot img{
+	width: 50px;
+	height: 50px;
+}
+
+
 .Automate {
 	margin-top: 50px;
-
-
+	background-color: aqua;
 }
 
 .Automate h1{
@@ -261,24 +312,12 @@ nav{
 	color: darkblue;
 	font-size: 18px;
 	margin-right: 5px;
+	margin-bottom: 20px;
 }
 
-
-
-.numberone img{
-	width: 50px;
-	height: 50px;	
-}
-
-.robot img{
-	width: 50px;
-	height: 50px;
-}
 
 .aUtomatic{
 	background-color:rgb(219, 250, 250);
-	margin-bottom: 20px;
-
 }
 
   
@@ -296,20 +335,21 @@ nav{
 .pill {
 	flex: 1;
 	text-align: center;
-	padding: 12px 12px;
+	padding: 15px 15px 15px 15px;
 	text-decoration: none;
-	color: lightseagreen;
+	color: #d3f9ec rgba(211,249,236,.995),#fffcf0;
 	background-color: none;
 	cursor: pointer;
+	border-radius: 5px 5px;
 }
 
 .pill:hover {
-	background-color: #04335a;
+	background-color: rgb(103, 103, 255);
 }
 
 #content{
-	margin-top: 100px;
-	margin-left: 20px;
+	margin-top: 90px;
+	margin-left: 100px;
 
 }
 
@@ -319,74 +359,91 @@ nav{
 	margin-right:70px;
 	float: right;
 	margin-top: -60px;
+	
 }
 
 #content h2{
 	font-size: 30px;
-	margin-left: 80px;
+	/* margin-left: 80px; */
 	margin-top: -50px;
 	margin-bottom: 10px;
+	text-align: left;
 	 
 }
 
 #content p{
 	font-size: 18px;
-	margin-left: -30px;
+	text-align: left;
 
 }
 
 #content ul li{
 	display: block;
-	font-size: 16px;
-	margin-left:85px;
+	font-size: 15px;
+	margin-left:0px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
-#content a {
+#content a{
 	cursor: pointer;
-	margin-left: 85px;
-	margin-top: -20px;
-	margin-bottom: 50px;
-
+	/* margin-left: 85px; */
+	color: blue;
+	font-size: 12px;
+	margin-bottom: 200px;
 }
 
 
 
-#marketing{
+.marketing{
+	display: flex;
 	flex-wrap: wrap;
 	background: #ced4da;
 }
 
 
-#marketing img{
+.marketing img{
 	height: 25%;
 	width: 25%;
 	margin-left: 15%;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
-#marketing h3{
-	text-align: center;
-	font-size: 65px;
-	margin-top: -18%;
-	margin-left: 500px;
+.Ski{
+	display: block;
+	margin-left: -70px;
+}
+
+.Ski h3{
+	margin-top: 100px;
+	margin-left: 190px;
+	font-size: 50px;
+}
+
+.Ski p{
+	/* margin-top: 100px; */
+	margin-left: 200px;
+	margin-top: 10px;
 	margin-bottom: 10px;
+	font-size: 16px;
 }
 
-#marketing p{
-	text-align: center;
-	font-size: 22px;
-	margin-left: 500px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
 
-#marketing a{
+.Ski a{
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-top: 5px;
+	font-size: 15px;
 	color: black;
-	font-size: 20px;
 }
+
+
+
+/* .ecommerce-section{
+	display: block;
+
+} */
 
 .container-eco h1{
 	margin-left: 29%;
@@ -532,68 +589,154 @@ nav{
 
 #clientg {
 	background-color: #f2f6ff!important;
-    background-image: url(/static/media/homeleft.f846955b99ba05e6fbb1.png);
+    background-image: url(https://mpairtech.com/static/media/homeleft.f846955b99ba05e6fbb1.png);
     background-position: bottom;
     background-size: cover;
+	margin-bottom: 30px;
+	margin: 0;
 }
 
-.Ghhh {
+
+#clientg a {
+	text-decoration: none;
+	margin-left: 630px;
+	color: orangered;
+	cursor: pointer;
+}
+
+#clientg a:hover{
+	color: #343a40;
+}
+
+
+
+.MhF{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	margin-top: 0px;
+	
 }
 
 .MhF h1{
-	font-size: 60px;
-	margin-left: 150px;
-	margin-top: 100px;
-	margin-bottom: 100px;
-
+	margin-left: 142px;
+	margin-top: 20px;
+	color: #002745;
+	text-align: left;
+	font-size: 60PX;
 }
+
 .MhF h1 span{
 	color: gainsboro;
 }
 
-.jkl{
-	display: grid;
-	grid-column: large;
+
+.new-container-fluid-klh {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
 }
 
-.container-fluid-klh{
-	margin-top: 0px;
+.new-NaT,
+.new-MaT,
+.new-KLT,
+.new-LiT,
+.new-FGJ,
+.new-DFd {
+	display: block;
+	justify-content: space-between; 
+    margin:0;
 
 }
 
-.NaT img{
-	height: 100%;
-	width: 100px;
-	margin-left: -960px;
-	margin-top: 500px;
+.new-NaT img,
+.new-MaT img,
+.new-KLT img,
+.new-FGJ img,
+.new-LiT img,
+.new-DFd img {
+    max-width: 100%; 
+	width: 90px;
+	height: 90px;
+    height: auto; 
+    /* display: flex;  */
+	margin-top: 100px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 
-.MaT img{
-	height: 100%;
-	width: 150px;
-	margin-top: 500px;
-	margin-left: -100px;
+
+
+
+
+.BloG h1{
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	font-size: 50px;
 }
 
-.KLT img{
-	height: 100%;
-	width: 100px;
+
+.FreeR img{
+	height: 230px;
+	width: 404px;
+	margin-left: 33%;
 }
 
-.LiT img{
-	height: 100%;
-	width: 100px;
+
+
+.GT{
+	display: block;
+	border:2px solid #ced4da;
+	margin-left: 33%;
+	margin-right: 37%;
+	margin-top: -5px;
 }
 
-.FGJ img{
-	height: 100%;
-	width: 100px;
+  .GT:hover{
+	background-color: #ced4da;
+  }
+
+  .GT h1,
+  .GT p{
+	text-align: left;
+	margin-left: 20px;
+	font-size: 20px;
+	margin-top: 5px;
+  }
+
+.GT p{
+	font-size: 15px;
 }
 
-.DFd img{
-	height: 100%;
-	width: 100px;
+
+
+.GT a{
+	margin-left: 20px;
+	font-size: 12px;
+	color: orangered;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.GT a:hover{
+	color: gray;
+}
+
+.home-blog button{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 45%;
+	color: white; 
+	background-color: orangered;
+	padding: 8px 15px 8px 15px;
+	cursor: pointer;
+	border-color: white;
+	border-radius: 5px 5px;
+
+}
+
+.home-blog button:hover{
+	background-color: white;
+	color: orangered;
+	border-color: orangered;
 }
