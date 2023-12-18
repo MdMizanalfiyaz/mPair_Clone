@@ -1,0 +1,543 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	min-height: 70vh;
+	background-color: #002C4A;
+
+}
+
+nav {
+	height: 67px;
+	width: 100%;
+	padding: 2px 2px;
+	background-color: #f8f9fa;
+	position: sticky;
+	z-index: 1;
+}
+
+
+.mainav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px 10px;
+
+}
+
+
+.mainav img {
+	height: 50px;
+	width: 50px;
+	margin-right: 20%;
+	margin-left: 50px;
+	margin-top: -10px;
+
+}
+
+.nav-menu ul li {
+	display: inline-block;
+	text-align: center;
+
+	color: #fffcf0;
+	font-family: sans-serif;
+	position: relative;
+	right: 220px;
+	margin-top: -10px;
+}
+
+.nav-menu ul li:hover {
+	color: orangered;
+}
+
+.nav-menu ul li a {
+	word-spacing: 1px;
+}
+
+
+ul li a {
+	display: block;
+	padding: 20px 25px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+	margin-left: -10px;
+
+}
+
+
+ul li a:hover {
+	color: orangered;
+}
+
+
+ul li ul.dropdown li {
+	display: flex;
+	width: 60px;
+}
+
+
+ul li ul.dropdown {
+	width: 600px;
+	padding: 40px 20px;
+	background: transparent;
+	position: absolute;
+	z-index: 999;
+	display: none;
+	margin-top: -41px;
+}
+
+
+ul li a:hover {
+	background: none;
+}
+
+ul li:hover ul.dropdown {
+	display: flex;
+}
+
+.drop-items {
+	display: inline-flex;
+	background-color: white;
+	padding: 10px;
+	width: 800px;
+}
+
+.drop-items li {
+	margin-left: 250px !important;
+	word-spacing: 15px;
+}
+
+.drop-items li img {
+	height: 50%;
+	width: 50%;
+	margin-left: -10px !important;
+	margin-top: 20px;
+}
+
+
+
+
+.mainav a button {
+	background-color: #002745;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	flex-direction: row;
+	cursor: pointer;
+	padding: 2px 30px 2px 30px;
+	margin-left: -80px;
+	margin-top: -10px;
+	text-decoration: none;
+
+}
+
+.mainav a button:hover {
+	color: #002745;
+	background-color: white;
+	border: 0px solid #002745;
+}
+
+.nav-menu {
+	float: none;
+}
+
+.nav-menu ul li a {
+
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	text-transform: none;
+	margin-right: 15px;
+	font-size: 17px;
+
+}
+
+.nav-menu ul li a:hover {
+	color: orangered;
+}
+
+
+
+
+
+
+
+ul li ul.dropdown-content li {
+	display: flex;
+	width: 60px;
+	margin-top: 20px;
+}
+
+
+ul li ul.dropdown-content {
+	width: 700px;
+	height: 400px;
+	padding: 40px 20px;
+	background: transparent;
+	position: absolute;
+	z-index: 999;
+	display: none;
+	margin-top: -31px;
+}
+
+
+ul li a:hover {
+	background: none;
+}
+
+ul li:hover ul.dropdown-content {
+	display: block;
+}
+
+.product-items {
+	display: grid;
+	grid-template-columns: auto auto;
+	border: 1px solid #ddd;
+	background-color: white;
+}
+
+.product-items li {
+	margin-left: 250px !important;
+	align-items: center;
+}
+
+.product-items li a {
+	text-align: left;
+}
+
+
+.product-items li,
+small {
+	font-size: 12px;
+}
+
+#tup {
+	background: url("https://media.istockphoto.com/id/1419766496/photo/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?s=1024x1024&w=is&k=20&c=8IG7IPJj30DlBfz_2fQUM_QsV22lEr-QDqCoF1poRWk=");
+	height: 350px;
+}
+
+
+.aB {
+	margin-left: 100px;
+	padding-top: 70px;
+	color: white;
+}
+
+.aB h1 {
+	font-size: 45px;
+}
+
+.aB p {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+.aB button {
+
+	margin-left: 0px;
+	margin-top: 50px;
+	color: white;
+	background-color: orangered;
+	cursor: pointer;
+	padding: 10px 30px 10px 30px;
+	font-size: 17px;
+	border: none;
+}
+
+
+.aB button:hover {
+	background-color: white;
+	color: orangered;
+}
+
+.mobile2 {
+	margin-bottom: 100px;
+}
+
+.mobile2 h2 {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.mobile2 p {
+	margin-top: 200px;
+	text-align: center;
+	font-size: 25px;
+	margin-left: -820px;
+}
+
+.contianer-lt1 {
+	margin: 0px;
+}
+
+.ly1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.contianer-fluid {
+	/* justify-content: center; */
+}
+
+.ylt {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(192, 255, 255);
+	height: 400px;
+}
+
+.yl-1 img {
+	margin-top: 50px;
+	margin-left: 100px;
+	width: 100px;
+}
+
+
+.tl-1 p {
+	font-size: 21px;
+	text-align: left;
+	margin-left: -90px;
+	margin-top: 150px;
+}
+
+.iyl img {
+	width: 518px;
+	height: 400px;
+	object-fit: cover;
+	padding-left: 239px;
+}
+
+.contianer-fluid-ty h3 {
+	padding-top: 100px;
+	text-align: center;
+	font-size: 40px;
+}
+
+.contianer-fluid-ty p {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+
+.bm {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #f8f9fa;
+	border: 2px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+
+}
+
+.py-3,
+.pY-4 {
+	margin-right: 10px;
+
+}
+
+
+.py-3 {
+	padding-top: -5px;
+}
+
+.pY-4 {
+	padding-left: 40px;
+}
+
+
+.py-3 img,
+.pY-4 img {
+	width: 50px;
+}
+
+.py-3 p,
+.pY-4 p {
+	text-align: left;
+	/* margin: 20px; */
+}
+
+.p1,
+.p3 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.container-aboutOfficials-content h1 {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 40px;
+}
+
+.container-aboutOfficials-content p {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+
+.OOffice {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 20px;
+
+}
+
+.Of1 img,
+.Of2 img,
+.Of3 img,
+.Of4 img {
+	object-fit: contain;
+	width: 160px;
+}
+
+
+.MEN,
+.MHN,
+.AAN,
+.ICN {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+.ofe {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
+
+
+
+.OfE2 img,
+.OfE3 img,
+.OfE4 img {
+	object-fit: contain;
+	width: 160px;
+}
+
+.OfE1 img {
+	width: 120px;
+	object-fit: contain;
+}
+
+.HhN,
+.TrN,
+.FuN,
+.ShN {
+	font-weight: bold;
+}
+
+
+
+
+.oE {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	float: left;
+	margin-left: 130px;
+}
+
+.OfE5 img {
+	object-fit: contain;
+	width: 160px;
+}
+
+.SrN {
+	font-weight: bold;
+}
+
+.contianer-aboutLocation-content {
+	background-color: #ececec;
+	margin-top: 300px;
+	/* margin-bottom: 20px; */
+	background-image: url("https://mpairtech.com/static/media/worldMap.56378a6df1b6db32b61d.png");
+	background-position: 500px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 400px;
+}
+
+
+
+
+.pseudoEl1 h1{
+	padding-top: 60px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	font-size: 40px;
+	font-weight: bold;
+
+
+}
+
+.pseudoEl1 hr{
+	margin-left: 100px;
+	margin-right: 1110px;
+	border: 2px solid orangered;
+}
+
+.ho{
+	display: flex;
+	flex-direction: row;
+}
+
+.ho1{
+	display: block;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+.ho1 h3{
+	font-size: 30px;
+}
+
+.ho1 p{
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+
+.contianer-aboutLocation-content button {
+
+	margin-left: 100px;
+	margin-top: 20px;
+	color: white;
+	background-color: orangered;
+	cursor: pointer;
+	/* padding: 10px 30px 10px 30px; */
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 17px;
+	border: none;
+	border-radius: 5px 5px 5px 5px;
+}
+
+
+.contianer-aboutLocation-content button:hover {
+	background-color: white;
+	color: orangered;
+	border: 1px solid orangered;
+	border-radius: 5px 5px 5px 5px;
+}
