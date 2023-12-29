@@ -3,6 +3,12 @@
 	padding: 0;
 }
 
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 .header {
 	min-height: 70vh;
 	background-color: #002C4A;
@@ -327,4 +333,207 @@ ul li:hover ul.dropdown-content {
   text-align:center;
   font-size:16px;
   margin-bottom: 20px;
+}
+
+
+
+
+
+.container-ftr{
+	background-color: #ddd;
+	text-align: center;
+	padding-top: 50px;
+	height: 400px;
+}
+
+.PwU{
+	font-size: 40px;
+}
+
+hr{
+	margin-left: 600px;
+	margin-right: 600px;
+	margin-top: 10px;
+	border: 1px solid orangered;
+}
+
+.text-t2{
+	color: #343a40;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.bmty{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: orangered;
+	border: 1px solid orangered;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.bmty:hover{
+	/* color:orangered; */
+	background-color: white;
+}
+
+.bmty a:hover{
+	color:orangered;
+	
+}
+
+.bmty a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	
+}
+
+
+.container-fluid-dul{
+	/* margin-left: 220px; */
+		
+}
+
+
+
+.du1 h6{
+	margin-left: -900px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+
+.du1 ul li{
+	list-style: none;
+}
+
+
+.du2 h6{
+	margin-top: -217px;
+	font-size: 15px;
+	margin-left: -450px;
+}
+
+.du3 h6{
+	margin-top: -217px;
+	font-size: 15px;
+	margin-left: -90px;
+}
+
+.du4 h6{
+	margin-top: -217px;
+	font-size: 15px;
+	margin-left: 300px;
+}
+
+.rfm{
+	display: flex;
+	justify-content: center; 
+	margin-top: 30px;
+}
+
+.fbr{
+	 margin-right: 20px;
+	 margin-left: 50px; 
+}
+
+.fbr h5{
+	font-size: 18px;
+}
+
+.fbr p{
+	text-align: left;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.fbr a{
+	text-decoration: none;
+	color: gray;
+}
+
+.fbr a:hover{
+	color: black;
+}
+
+.fbR2{
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+.fbR2 h5{
+	font-size: 18px;
+}
+
+.fbR2 p{
+	text-align: left;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.fbR2 a{
+	text-decoration: none;
+	color: gray;
+}
+
+.fbR2 a:hover{
+	color: black;
+}
+
+
+.fBr3{
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+
+.fBr3 h5{
+	font-size: 18px;
+}
+
+.fBr3 p{
+	text-align: left;
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.fBr3 a{
+	text-decoration: none;
+	color: gray;
+}
+
+.fBr3 a:hover{
+	color: black;
+}
+
+
+.cfr{
+	margin-left: 150px;
+	text-align: left;
+}
+
+.cfr h5{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.cfr a{
+	text-decoration: none;
+	color: gray;
+	font-size: 13px;
+}
+
+.cfr a:hover{
+	color: black;
+}
+
+.spb2s{
+	margin-top: 10px;
+}
+
+.cfr p{
+	margin-top: 10px;
 }
